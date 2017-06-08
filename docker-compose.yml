@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  dotnetcorewebapponlinuxcontainer1:
+    image: dotnetcorewebapponlinuxcontainer1
+    build:
+      context: ./DotNetCoreWebAppOnLinuxContainer1
+      dockerfile: Dockerfile
