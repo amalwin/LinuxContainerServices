@@ -6,3 +6,9 @@ services:
     build:
       context: ./DotNetCoreWebAppOnLinuxContainer1
       dockerfile: Dockerfile
+
+  dotnetcorewebapponlinuxcontainer2:
+    image: dotnetcorewebapponlinuxcontainer2
+    build:
+      context: ./DotNetCoreWebAppOnLinuxContainer2
+      dockerfile: Dockerfile
